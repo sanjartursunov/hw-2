@@ -218,6 +218,11 @@ footer {
     margin-top: 30px;
 }
 
+footer .container {
+    display: flex;
+    padding: 25px;
+}
+
 .footer-left {
     display: inline-block;
     width: 25%;
@@ -226,7 +231,7 @@ footer {
 
 .footer-left h5 {
     font-size: 13px;
-    padding: 30px 0 20px 0;
+    padding: 0 0 20px 0;
 }
 
 .footer-left p {
@@ -235,7 +240,7 @@ footer {
 
 .footer-right {
     display: inline-block;
-    width: 69%;    
+    width: 75%;
 }
 
 .footer-navigation__items {
@@ -244,7 +249,7 @@ footer {
 
 .footer-navigation__item {
     list-style: none;
-    display: inline-block;   
+    display: inline-block;  
 }
 
 .footer-navigation__item a {
@@ -257,8 +262,20 @@ footer {
     color: #FFFFFF;
 }
 
-.footer-navigation__item a::after {
+.footer-navigation__item::after {
     padding: 0 20px;
     content: '/';
+    color: #A0A0A0;
+}
+
+.contact::after {
+    content: '';
+    padding-right: 0;
+}
+
+.footer-right p {
+    color: #A0A0A0;
+    text-align: right;
+    padding: 25px 0;
 }
 
